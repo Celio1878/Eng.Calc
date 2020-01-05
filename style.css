@@ -1,0 +1,38 @@
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body {
+   font-family: "Open Sans", sans-serif;
+   width: 70%;
+}
+
+ul, ol, li {
+   list-style: none;
+}
+
+.title-menu {
+   width: 200px; 
+   border:1px solid #c0c0c0;
+   display: inline-block;
+   
+}
+
+.sub-menu {
+   display:none;
+   position:relative;  
+   border-right:1px solid #c0c0c0; 
+}
+
+.menu .title-menu:hover .sub-menu,
+.menu .title-menu.over .sub-menu {
+   display:block;
+}
+
+.menu .title-menu .sub-menu .item{
+border:1px solid #c0c0c0; 
+display:block; 
+width:150px;
+}

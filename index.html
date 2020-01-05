@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title> Enginner.Calc </title>
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   </head>
+
+   <body class="container">
+
+         <nav class="navbar">
+            <div class="container-fluid">
+               <ul class="nav navbar-nav">
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"> Mechanic <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li> Power </li>
+                        <li> Materials </li>
+                        <li> Newton </li>
+                        <li> Einstein </li>
+                     </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"> Chemical <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                           <li> Carbon </li>
+                           <li> Periodic Table </li>
+                           <li> Ionic Call </li>
+                     </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Math Applicated <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                           <li class="item"> Baschara </li>
+                           <li class="item"> Galileu </li>
+                           <li class="item"> Variables </li>
+                           <li class="item"> Float Numbers </li>
+                     </ul>
+                   </li>
+                   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Biology<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                           <li class="item"> Platheumintcs </li>
+                           <li class="item"> Plasma </li>
+                     </ul>
+                   </li>
+                 </ul>
+               </div>
+            </nav>
+      
+      <h1 class = "title"> </h1>
+
+      <main>
+         <form class="form" action="/" method="POST">
+            <h3 class="subTitle"> </h3>
+
+            <label id="tension"> </label>
+            <input type="text" name="tension" class="tension" placeholder="Tension (V)"> </br>
+            
+            <label id="resistence"> </label>
+            <input type="text" name="resistence" class="resistence" placeholder="Resistence (R)"> </br>
+            
+            <label id="current"> </label>
+            <input type="text" name="current" class="current" placeholder="Current (I)">
+
+            <button type="submit" name="calc"> Calc </button>
+            <button onclick = erase() name="erase"> Clean </button>
+         </form>
+
+      </main>
+   </body>
+
+   <script src="index.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</html>
